@@ -575,6 +575,10 @@ video {
   margin-top: 70px;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
