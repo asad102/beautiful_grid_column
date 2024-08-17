@@ -571,10 +571,6 @@ video {
   margin-top: 0.75rem;
 }
 
-.mt-\[68px\] {
-  margin-top: 68px;
-}
-
 .mt-\[70px\] {
   margin-top: 70px;
 }
@@ -585,6 +581,14 @@ video {
 
 .flex {
   display: flex;
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
+.max-h-\[250px\] {
+  max-height: 250px;
 }
 
 .min-h-screen {
@@ -601,10 +605,6 @@ video {
 
 .flex-col {
   flex-direction: column;
-}
-
-.items-start {
-  align-items: flex-start;
 }
 
 .items-center {
