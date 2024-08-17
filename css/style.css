@@ -575,6 +575,10 @@ video {
   margin-top: 68px;
 }
 
+.mt-\[70px\] {
+  margin-top: 70px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -597,6 +601,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
