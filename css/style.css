@@ -567,8 +567,8 @@ video {
   margin-top: 2.5rem;
 }
 
-.mt-3 {
-  margin-top: 0.75rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .mt-\[70px\] {
@@ -585,10 +585,6 @@ video {
 
 .h-\[250px\] {
   height: 250px;
-}
-
-.max-h-\[250px\] {
-  max-height: 250px;
 }
 
 .min-h-screen {
@@ -619,16 +615,16 @@ video {
   justify-content: flex-end;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
 
 .gap-7 {
   gap: 1.75rem;
-}
-
-.gap-\[2px\] {
-  gap: 2px;
 }
 
 .overflow-hidden {
