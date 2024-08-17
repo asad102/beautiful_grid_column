@@ -6,59 +6,62 @@
     <title>Four card feature section</title>
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="font-sans bg-LightGray ">
-    <section class="fourcard px-10 py-4">
-        <div class="container min-h-screen mx-auto flex flex-col gap-6 max-w-[1440px] justify-center items-center">
-            <div class="card bg-white  flex flex-col gap-6">  
-                <div class="titles flex flex-col gap-2 text-center">
-                    <span class="text-GrayishBlue text-4xl">Reliable, efficient delivery</span>
-                    <h1 class="font-extrabold text-4xl text-DarkBlue">Powered by Technology</h1>
-                    <p class="text-GrayishBlue">Our Artificial intelligence powered tools use millions of project data
-                        points to ensure that your project is successful</p>
-                </div>
-                <div class="cards flex flex-col place-items-center m-auto lg:grid lg:grid-cols-3 gap-7 ">
-                    <div
-                        class="card-one p-10 border-t-4 border-t-red shadow-xl  border-full">
-                        <h1 class="font-bold ">Team Builder</h1>
-                        <p>Scans our talent network to create the optimal team for your project</p>
-                        <div class="cardimg flex justify-end pt-4">
-                            <img src="img/icon-team-builder.svg" alt="">
-                        </div>
-                    </div>
+<body>
 
-                    <!-- the two div that align center -->
-                    <div class="flex flex-col gap-10">
-                        <div
-                            class="card-two p-10 border-t-4 border-t-cyan shadow-xl">
-                            <h1 class="font-bold ">SuperVisor</h1>
-                            <p>Scans our talent network to create the optimal team for your project</p>
-                            <div class="cardimg flex justify-end pt-4">
-                                <img src="img/icon-supervisor.svg" alt="">
-                            </div>
-                        </div>
-                        <div
-                            class="card-three p-10 border-t-4 border-t-blue shadow-xl ">
-                            <h1 class="font-bold ">Calculator</h1>
-                            <p>Scans our talent network to create the optimal team for your project</p>
-                            <div class="cardimg flex justify-end pt-4">
-                                <img src="img/icon-calculator.svg" alt="">
-                            </div>
+    <main class="bg-VeryLightGray min-h-screen flex items-center">
+        <article class="lg:max-w-[1110px] w-full lg:mx-auto mx-4  box-border">
+            <header class="text-center gap-4 text-4xl text-VeryDarkBlue">
+                <section class="flex flex-col">
+                    <span class="font-extralight ">Reliable, efficient delivery</span>
+                    <span class="font-semibold">Powered by Technology</span>
+                </section>
+                <p class=" leading-6 tracking-wider text-base opacity-50 my-4">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+            </header>
+            <div class="cards flex flex-col gap-7  lg:place-items-center lg:grid lg:grid-cols-3 grid-cols-1 mt-14">
+                <div
+                    class="card-one  border-t-4 border-t-Cyan shadow-xl p-8 rounded-lg bg-[#fff] text-VeryDarkBlue overflow-hidden lg:w-full">
+                    <h1 class="font-semibold text-xl">SuperVisor</h1>
+                    <p class="font-normal text-sm opacity-50 lg:w-5/6 mt-1.5">Monitors activity to identify project roadblocks</p>
+                    <div class="cardimg flex justify-end mt-10">
+                        <img src="./img/icon-team-builder.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- the two div that align center -->
+                <div class="flex flex-col gap-7">
+                    <div
+                        class="card-two border-t-4 border-t-Red shadow-xl p-8 rounded-lg bg-[#fff] text-VeryDarkBlue overflow-hidden lg:w-full">
+                        <h1 class="font-semibold text-xl">Team Builder</h1>
+                        <p class="font-normal text-sm opacity-50 lg:w-5/6 mt-1.5">Scans our talent network to create the optimal team for your project</p>
+                        <div class="cardimg flex justify-end mt-10">
+                            <img src="./img/icon-supervisor.svg" alt="">
                         </div>
                     </div>
                     <div
-                        class="card-four p-10 border-t-4 border-t-orange shadow-xl lg:place-self-center">
-                        <h1 class="font-bold ">Karma</h1>
-                        <p>Scans our talent network to create the optimal team for your project</p>
-                        <div class="cardimg flex justify-end pt-4">
-                            <img src="img/icon-karma.svg" alt="">
+                        class="card-four border-t-4 border-t-Orange shadow-xl p-8 lg:place-self-center  rounded-lg bg-[#fff] text-VeryDarkBlue overflow-hidden lg:w-full">
+                        <h1 class="font-semibold text-xl ">Karma</h1>
+                        <p class="font-normal text-sm opacity-50 lg:w-5/6 mt-1.5">Regularly evaluates our talent to ensure quality</p>
+                        <div class="cardimg flex justify-end mt-10">
+                            <img src="./img/icon-karma.svg" alt="">
                         </div>
+                    </div>   
+                </div>
+                <div
+                    class="card-three border-t-4 border-t-Blue shadow-xl p-8 rounded-lg bg-[#fff] text-VeryDarkBlue overflow-hidden lg:w-full">
+                    <h1 class="font-semibold text-xl">Calculator</h1>
+                    <p class="font-normal text-sm opacity-50 lg:w-5/6 mt-1.5">Uses data from past projects to provide better delivery estimates</p>
+                    <div class="cardimg flex justify-end mt-10">
+                        <img src="./img/icon-calculator.svg" alt="">
                     </div>
+                </div>
+        
+            </div>
+        
             
-            </div>
-            </div>
-        </div>
-    </section>
+        </article>
+    </main>
+
 </body>
 </html>
